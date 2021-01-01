@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "entity_api_bug",
+  "version": "${version}",
+  "name": "EntityApiBug",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/entityApiBug/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.bulldog98.entityapibug.EntityApiBug"
+    ]
+  },
+  "mixins": [
+    "entityApiBug.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
